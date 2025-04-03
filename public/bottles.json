@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "lifetime": "5 years",
+      "image": "https://example.com/images/bottle1.jpg",
+      "hotColdSupport": true,
+      "capacity": "1L",
+      "material": "Stainless Steel",
+      "brand": "Hydro Flask",
+      "price": 25.99
+    },
+    {
+      "id": 2,
+      "lifetime": "3 years",
+      "image": "https://example.com/images/bottle2.jpg",
+      "hotColdSupport": false,
+      "capacity": "750ml",
+      "material": "Plastic",
+      "brand": "Nalgene",
+      "price": 12.50
+    },
+    {
+      "id": 3,
+      "lifetime": "7 years",
+      "image": "https://example.com/images/bottle3.jpg",
+      "hotColdSupport": false,
+      "capacity": "1.2L",
+      "material": "Glass",
+      "brand": "Lifefactory",
+      "price": 30.00
+    },
+    {
+      "id": 4,
+      "lifetime": "4 years",
+      "image": "https://example.com/images/bottle4.jpg",
+      "hotColdSupport": true,
+      "capacity": "500ml",
+      "material": "Aluminum",
+      "brand": "SIGG",
+      "price": 18.75
+    },
+    {
+      "id": 5,
+      "lifetime": "6 years",
+      "image": "https://example.com/images/bottle5.jpg",
+      "hotColdSupport": true,
+      "capacity": "900ml",
+      "material": "BPA-Free Plastic",
+      "brand": "CamelBak",
+      "price": 15.99
+    }
+  ]
+  
