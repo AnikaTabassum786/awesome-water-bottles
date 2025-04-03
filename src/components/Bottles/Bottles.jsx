@@ -1,7 +1,8 @@
 import React, { use } from 'react';
 import Bottle from '../Bottle/Bottle';
+import './Bottles.css'
 
-const Bottles = ({bottlesPromise}) => {
+const Bottles = ({ bottlesPromise }) => {
 
     const bottles = use(bottlesPromise)
     // console.log(bottles)
@@ -20,9 +21,11 @@ const Bottles = ({bottlesPromise}) => {
                 })}
             </div> */}
 
+            <div className='bottle-container'>
+                {bottles.map(bottle => <Bottle key={bottle.id} bottle={bottle}></Bottle>)}
+            </div>
 
-            {bottles.map(bottle=> <Bottle key={bottle.id} bottle={bottle}></Bottle>)}
-            
+
         </div>
     );
 };
