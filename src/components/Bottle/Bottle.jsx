@@ -1,7 +1,7 @@
 import React from 'react';
 import './Bottle.css'
 const Bottle = ({bottle,handleAddCart}) => {
-     console.log(bottle)
+    //  console.log(bottle)
     const {img,name,price,stock} = bottle
     return (
         <div className='card bottle'>

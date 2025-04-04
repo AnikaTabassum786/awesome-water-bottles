@@ -30,4 +30,7 @@ const addItemToCartLocalStorage = (id) =>{
     
 }
 
-export {getCartFromLocalStorage,addItemToCartLocalStorage}
+export {
+       getCartFromLocalStorage as getStoreCart,
+       addItemToCartLocalStorage as addToStoreCart
+    }
