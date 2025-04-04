@@ -8,6 +8,8 @@ const Bottles = ({ bottlesPromise }) => {
 
     const handleAddCart=(bottle)=>{
         console.log('added cart',bottle)
+        const newCart=[...cart,bottle]
+        setCart(newCart)
     }
 
     const bottles = use(bottlesPromise)
@@ -15,7 +17,8 @@ const Bottles = ({ bottlesPromise }) => {
 
     return (
         <div>
-            {bottles.length}
+            Total Bottle: {bottles.length} <br />
+            Cart: {cart.length}
 
             {/* <div>
                 {bottles.map((bottle,index)=>{
